@@ -1,0 +1,151 @@
+/* Home.css */
+
+/* General Styles */
+.home {
+  text-align: center;
+  padding: 2rem;
+}
+
+.home-container {
+  min-height: 50vh; 
+  margin: 30px auto;
+  position: relative;
+}
+
+/* Hero Section */
+.hero-section {
+  background-image: url(bg1.jpg); /* Ensure the path is correct */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 5rem 0;
+  color: white;
+  height: 600px;
+  width: 95%;
+  margin: 1px auto;
+}
+
+.hero-content {
+  margin-top: 10rem;
+  margin-left: 100px;
+}
+
+.hero-button {
+  background-color: #6A1B9A;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.hero-button:hover {
+  background-color: #4A148C;
+}
+
+/* Services Section */
+.services-section {
+  padding: 2rem 0;
+  background-color: #f9f9f9;
+}
+
+.services-section h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin:15px auto;
+}
+
+.services-section p {
+  font-size: 1rem;
+  /* margin-bottom: 2rem; */
+  text-align: center;
+  margin:5px auto;
+  line-height: 1.6;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.service-item {
+  max-width: 300px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.service-icon {
+  font-size: 2rem;
+  color: #6A1B9A;
+  margin-bottom: 1rem;
+}
+
+.service-item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.service-item p {
+  font-size: 1rem;
+}
+
+/* About Section */
+.about-section {
+  margin: 2rem 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.about-section p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.about-image {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin: 1rem 0;
+  border-radius: 8px;
+}
+
+/* Get In Touch Section */
+.get-in-touch {
+  text-align: center;
+  padding: 2rem;
+  background-color: #f5f5f5;
+}
+
+.get-in-touch h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.get-in-touch p {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.contact-us-btn button {
+  background-color: #6A1B9A;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-us-btn button:hover {
+  background-color: #4A148C;
+}

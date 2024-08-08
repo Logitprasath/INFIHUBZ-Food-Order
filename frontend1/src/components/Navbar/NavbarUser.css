@@ -1,0 +1,113 @@
+.navbar-user {
+  background-color: #fff; /* Background color for the navbar */
+  border-bottom: 1px solid #ddd; /* Optional: Bottom border for separation */
+  padding: 1rem;
+  display: flex;
+  justify-content: center; /* Center the navbar horizontally */
+}
+
+.navbar-user-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  width: 100%;
+  max-width: 1300px; /* Set a max-width to control the width of the navbar */
+}
+
+.navbar-user-brand {
+  font-size: 3rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: red; /* Brand color */
+}
+
+.navbar-user-menu {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navbar-user-menu li {
+  display: inline;
+}
+
+.navbar-user-menu a {
+  text-decoration: none;
+  color: #333; /* Link color */
+  font-size: 1rem;
+}
+
+.navbar-user-actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navbar-user-name {
+  font-size: 1rem;
+  color: #333; /* User name color */
+}
+
+.navbar-cart {
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: #333; /* Cart icon color */
+  text-decoration: none;
+}
+
+.navbar-cart-icon {
+  font-size: 1.5rem;
+  margin-right: 0.5rem; /* Space between icon and badge */
+}
+
+.navbar-cart-badge {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  background-color: #ff0000;
+  color: #e81414;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+.navbar-logout {
+  background-color: #6A1B9A;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logout:hover {
+  background-color: #4A148C;
+}
+
+.navbar-login {
+  text-decoration: none;
+  background-color: #6A1B9A;
+  color: white;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-login:hover {
+  background-color: #4A148C;
+}
+
+.navbar-login-icon {
+  margin-right: 0.5rem; /* Space between icon and text */
+}

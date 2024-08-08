@@ -1,0 +1,66 @@
+/* Add.css */
+
+.add-container {
+    display: flex;
+    width: calc(100% - var(--sidebar-width));
+    margin-left: var(--sidebar-width);
+    padding: 20px;
+    box-sizing: border-box;
+    align-items: center;
+}
+.admin-content{
+    display: flex;
+}
+
+.add {
+    width: 100%;
+    color: #0a0a0a; /* Static color */
+    font-size: 16px;
+}
+
+.add form {
+    gap: 20px;
+}
+
+.add-img-upload img {
+    width: 120px;
+    cursor: pointer;
+}
+
+.add-product-name .add-product-description {
+    padding: 10px;
+    width: 100%; /* Ensure it takes full width within the container */
+}
+
+.add-product-name input, .add-product-description textarea {
+    padding: 10px;
+    width: 100%; /* Ensure it takes full width within the container */
+}
+
+.add-category-price {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap; /* Ensure items wrap on smaller screens */
+}
+
+.add-category-price select, .add-category-price input {
+    flex: 1; /* Allow items to take available space */
+    min-width: 120px;
+    padding: 10px;
+}
+
+.add-btn {
+    max-width: 120px;
+    border: none;
+    padding: 10px;
+    margin-top: 40px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+label img[src*="assets/upload_area"] {
+    filter: grayscale(100%);
+}
+
+
